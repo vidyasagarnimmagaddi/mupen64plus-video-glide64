@@ -27,7 +27,7 @@ jobs:
           - cc: Clang
             arch: x86
     name: Linux / ${{ matrix.cc }} / ${{ matrix.arch }}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Get build dependencies and arrange the environment
